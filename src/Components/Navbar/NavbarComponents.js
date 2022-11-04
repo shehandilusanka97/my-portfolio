@@ -1,19 +1,18 @@
 import "./NavbarComponents.css";
 import { Link } from "react-router-dom";
-import { FaYoutube, FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 export const socialIcons = [
-  <FaYoutube />,
   <FaLinkedin />,
   <FaGithub />,
   <FaFacebook />,
 ];
 export const Logo = (
   <Link to="/" className="logo">
-    ck boiuyhy
+    Shehan Dilusanka
   </Link>
 );
 
-const navItems = [
+export const navItems = [
   { name: "Home", id: "/" },
   { name: "About", id: "about" },
   { name: "Projects", id: "portfolio" },
