@@ -25,6 +25,10 @@
     height: 50px;
     font-size: 20px;
     color: var(--light);
-    transition: .4s;
+    transition: .6s;
     cursor: var(--pointer);
+}
+.nav-icon:hover{
+    font-size: 30px;
+    color: var(--primary);
 }
